@@ -28,6 +28,5 @@ jobs:
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@master
         with:
-          bucket: vardaankapoor.site
           region: us-east-2   # update with your region
           source-dir: dist
