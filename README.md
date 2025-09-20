@@ -1,4 +1,4 @@
-# React + Vite
+# React portfolio app
 
 [![DevSkim](https://github.com/ervardaan/react-portfolio/actions/workflows/devskim.yml/badge.svg)](https://github.com/ervardaan/react-portfolio/actions/workflows/devskim.yml)
 [![Deploy to S3 + CloudFront](https://github.com/ervardaan/react-portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/ervardaan/react-portfolio/actions/workflows/deploy.yml)
