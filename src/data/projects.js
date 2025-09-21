@@ -49,7 +49,7 @@ export const projects = [
       'Achieved final output layer with 1M parameters mapped to element-wise probability function for input feature similarity.',
       'Improved accuracy from 62% to 82% in final epochs via parameter optimization.'
     ],
-    link: '#', // replace with GitHub or demo link if available,
+    link: '#', // replace with GitHub or demo link if available
     tags: []
   },
   {
