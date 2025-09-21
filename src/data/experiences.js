@@ -84,7 +84,6 @@ export const experiences = [
     description: [
       'Processed payments for over 2,000 customers daily at multiple cash counters, verifying identities and managing online orders using Starship robot delivery service.',
       'Collaborated with team members to minimize student queue wait times to a maximum of 5 minutes by efficiently distributing cashier roles.',
-      'Collaborated with team to cap student queue wait times at 5 minutes by efficiently distributing cashier roles',
       'Prepared food items such as stir-fry, burgers, and sandwiches, while volunteering for late-night shifts and assisting as a dishwasher during peak hours.'
     ],
     tech: ['Customer Service', 'Time Management', 'Teamwork'],
