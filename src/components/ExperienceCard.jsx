@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 
-export default function ExperienceCard({ title, description, tech, link }) {
+export default function ExperienceCard({ title, description, tech, link, logo }) {
 
   return (
     <motion.article
@@ -10,6 +10,8 @@ export default function ExperienceCard({ title, description, tech, link }) {
       viewport={{ once: true }}
       className="p-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white rounded-lg shadow"
     >
+      <div className="flex-1">
+
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
       <p className="mb-4 text-sm text-gray-100">{description}</p>
       <div className="flex items-center justify-between">
@@ -23,6 +25,16 @@ export default function ExperienceCard({ title, description, tech, link }) {
           GitHub
         </a>
         </div>
+      </div>
+
+            {/* Right side logo */}
+      {logo && (
+        <img
+          src={logo}
+          alt={`${title} logo`}
+          className="w-16 h-16 rounded-full object-cover border-2 border-white flex-shrink-0"
+        />
+      )}
     </motion.article>
   )
 }
