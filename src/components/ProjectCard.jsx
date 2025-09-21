@@ -21,7 +21,7 @@ export default function ProjectCard({ id, title, description, tech, link, tags, 
       className={`p-6 bg-gradient-to-r ${gradient} text-white rounded-lg shadow`}
     >
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
-      <p className="mb-4 text-sm text-gray-100">{description}</p>
+      <p className="mb-4 text-sm text-left text-gray-100">{description}</p>
       <div className="flex items-center justify-between">
         <div className="flex flex-wrap gap-2 text-xs text-gray-200">
           {tech?.map((t, i) => (

@@ -67,7 +67,10 @@ export const experiences = [
     location: 'Madison, WI',
     dates: ['Jan 2023 – May 2023'],
     description: [
-      'Assisted students with coursework, labs, and projects in Computer Science courses.'
+      'Mentored over 1,000 students in programming languages (Java, Python), multivariable calculus, and DevOps projects using version control and Scrum methodologies.',
+      'Guided students in solving complex system design problems, SQL queries, bit manipulation, and circuit diagrams.',
+      'Developed study materials and organized classes for core computer science courses, addressing course-related queries and maintaining a focused learning environment.'
+
     ],
     tech: ['Teaching', 'Computer Science Fundamentals'],
     logo: uwLogo
@@ -79,7 +82,10 @@ export const experiences = [
     location: 'Madison, WI',
     dates: ['Sep 2022 – Dec 2024'],
     description: [
-      'Worked in customer service roles including cashiering, stocking, and barista duties while pursuing studies.'
+      'Processed payments for over 2,000 customers daily at multiple cash counters, verifying identities and managing online orders using Starship robot delivery service.',
+      'Collaborated with team members to minimize student queue wait times to a maximum of 5 minutes by efficiently distributing cashier roles.',
+      'Collaborated with team to cap student queue wait times at 5 minutes by efficiently distributing cashier roles',
+      'Prepared food items such as stir-fry, burgers, and sandwiches, while volunteering for late-night shifts and assisting as a dishwasher during peak hours.'
     ],
     tech: ['Customer Service', 'Time Management', 'Teamwork'],
     logo: uwLogo

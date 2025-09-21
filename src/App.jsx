@@ -15,18 +15,16 @@ function App() {
         <div className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
           {/* Logo Section */}
           <div className="flex items-center space-x-4 text-black">
-              <img src={viteLogo} alt="Vite logo" style={{ width: 40 }} />
-	      <span className="font-medium text-base">Hi! I'm Vardaan Kapoor</span>
-              <img src={reactLogo} alt="React logo" style={{ width: 40 }} />
-            {/* <span className="font-bold text-lg">My Portfolio</span> */}
+            <a href="#home" className="hover:text-blue-600">Home</a>
+    	      <span className="font-medium text-base">Hi! I'm Vardaan Kapoor</span>
           </div>
 
           {/* Nav Links */}
           <ul className="flex items-center space-x-6">
-            <li><a href="#home" className="hover:text-blue-600">Home</a></li>
             <li><a href="#experiences" className="hover:text-blue-600">Experiences</a></li>
             <li><a href="#projects" className="hover:text-blue-600">Projects</a></li>
             <li><a href="#contact" className="hover:text-blue-600">Contact</a></li>
+            <li><a href="#resume" className="hover:text-blue-600">Download Resumes</a></li>
           </ul>
         </div>
       </nav>
