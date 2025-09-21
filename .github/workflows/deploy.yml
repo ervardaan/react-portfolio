@@ -33,8 +33,8 @@ jobs:
           aws-region: 'us-east-2'
      
       - name: Sync to S3 Bucket 1
-        run: aws s3 sync dist ./build s3://${{ secrets.AWS_S3_BUCKET }} --delete --acl public-read --exclude '.git/*'
+        run: aws s3 sync ./dist s3://${{ secrets.AWS_S3_BUCKET }} --delete --acl public-read --exclude '.git/*'
 
       - name: Sync to S3 Bucket 2
-        run: aws s3 sync dist ./build s3://${{ secrets.AWS_S3_BUCKET_2 }} --delete --acl public-read --exclude '.git/*'
+        run: aws s3 sync ./dist s3://${{ secrets.AWS_S3_BUCKET_2 }} --delete --acl public-read --exclude '.git/*'
           
