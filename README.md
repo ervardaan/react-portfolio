@@ -4,13 +4,80 @@
 [![Deploy to S3 + CloudFront](https://github.com/ervardaan/react-portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/ervardaan/react-portfolio/actions/workflows/deploy.yml)
 [![CodeQL](https://github.com/ervardaan/react-portfolio/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/ervardaan/react-portfolio/actions/workflows/github-code-scanning/codeql)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic portfolio website built with **React**, **Vite** and **TailwindCSS**, showcasing my projects and experiences with interactive filtering by categories. Each project and experience card features logos, descriptions, technologies, and tags for easy navigation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Project & Experience Cards**
+  - Display detailed information including title, description, technologies, and logos.
+  - Gradient backgrounds for visually appealing cards.
+  - Circular logos displayed on each card.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Interactive Filtering**
+  - Projects and experiences are automatically tagged with categories like:
+    - Computer Science
+    - Data Science
+    - Statistics
+  - Users can click on tags to filter projects dynamically.
+  - Clear filter button to reset the selection.
+
+- **Responsive Layout**
+  - Grid layout adapts to mobile and desktop screens.
+  - TailwindCSS ensures consistent spacing, typography, and responsive design.
+
+- **Animated Components**
+  - Smooth entry animations using **Framer Motion**.
+
+- **Tech Stack**
+  - **React**: Component-based UI
+  - **TailwindCSS**: Styling and responsive design
+  - **Framer Motion**: Animations
+  - **JavaScript/TypeScript**: Logic and interactivity
+  - **AWS S3** (optional): Hosting static assets (logos, images)
+  
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+3. Start the development server
+```bash
+npm run dev
+```
+
+Open http://localhost:5173  in your browser to view the app.
+
+## File Structure:
+```css
+src/
+├─ components/
+│  ├─ ProjectCard.jsx
+│  ├─ ExperienceCard.jsx
+│  └─ Projects.jsx
+├─ data/
+│  └─ projects.js
+├─ assets/
+│  └─ logos/
+└─ App.jsx
+```
+- ProjectCard.jsx – Card component for projects.
+- ExperienceCard.jsx – Card component for experiences.
+- Projects.jsx – Parent component handling project listing and filtering.
+- projects.js – Project data including title, description, tech, tags, and logos.
+- assets/logos/ – Logos for projects and experiences.
+
+## License
+This project is open-source and available under the MIT License.
