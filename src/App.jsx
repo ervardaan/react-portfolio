@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import Experiences from './components/Experiences'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import ResumeDropdown from './components/ResumeDropdown'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
             <li><a href="#experiences" className="hover:text-blue-600">Experiences</a></li>
             <li><a href="#projects" className="hover:text-blue-600">Projects</a></li>
             <li><a href="#contact" className="hover:text-blue-600">Contact</a></li>
-            <li><a href="#resume" className="hover:text-blue-600">Download Resumes</a></li>
+            <li><ResumeDropdown /></li>
           </ul>
         </div>
       </nav>
