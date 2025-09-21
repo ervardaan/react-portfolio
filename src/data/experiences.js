@@ -1,3 +1,9 @@
+import paragonLogo from '../assets/logos/paragongenomics.jpg'
+import soundsafeLogo from '../assets/logos/soundsafe.jpg'
+import aiClubLogo from '../assets/logos/aiuw.jpg'
+import vpInfotechLogo from '../assets/logos/vpinfotech.jpg'
+import uwLogo from '../assets/logos/uwmadison.jpg'
+
 export const experiences = [
   {
     id: 1,
@@ -9,7 +15,9 @@ export const experiences = [
       'AI-powered curation db interface: Developed FastAPI endpoints for Biomedical NER for incoming user queries. Integrated NER outputs with LLM-based SQL query generation and execution. Fed SQL outputs to an LLM for relevant structured NL response generation. Created Supabase DB with schema augmented using pgvector for fine-tuned SQL query generation.',
       'Data Pipeline Improvement: Worked on AWS-based (S3, Lambda, SQS, DynamoDB) data processing pipeline. Diagnosed and fixed memory leaks, crashes, and stability issues to significantly improve reliability. Enhanced debugging with CloudWatch logs and refined logging strategies.'
     ],
-    tech: ['FastAPI', 'Biomedical NER', 'LLM', 'SQL', 'Supabase', 'pgvector', 'AWS S3', 'Lambda', 'SQS', 'DynamoDB', 'CloudWatch']
+    tech: ['FastAPI', 'Biomedical NER', 'LLM', 'SQL', 'Supabase', 'pgvector', 'AWS S3', 'Lambda', 'SQS', 'DynamoDB', 'CloudWatch'],
+    logo: paragonLogo
+
   },
   {
     id: 2,
@@ -21,7 +29,8 @@ export const experiences = [
       'Improved stability of Audio Watermarking algorithm development by fixing OOM errors during high-dim matrix multiplication.',
       'Added structure to CNN model repository layout by externalizing hardcoded parameters for reproducible model training and inference.'
     ],
-    tech: ['Deep Learning', 'CNNs', 'Audio Watermarking', 'Python']
+    tech: ['Deep Learning', 'CNNs', 'Audio Watermarking', 'Python'],
+    logo: soundsafeLogo
   },
   {
     id: 3,
@@ -34,7 +43,8 @@ export const experiences = [
       'Built partnerships with Google, OpenAI, and Meta; hosted events on ethical AI, design, and HCI.',
       'Organized “Day of AI” local outreach event; received Dean’s Award of Excellence for planning, innovation, and leadership.'
     ],
-    tech: ['Leadership', 'Event Planning', 'AI Ethics', 'Community Outreach']
+    tech: ['Leadership', 'Event Planning', 'AI Ethics', 'Community Outreach'],
+    logo: aiClubLogo
   },
   {
     id: 4,
@@ -47,7 +57,8 @@ export const experiences = [
       'Developed a mobile testing framework with Appium, Postman, and Node.js; utilized TestRail for test management.',
       'Executed SQL queries on Data Warehouse while creating test orders using Orders and Retail Management systems.'
     ],
-    tech: ['Cypress', 'Selenium', 'Cucumber', 'JavaScript', 'Appium', 'Postman', 'Node.js', 'TestRail', 'SQL']
+    tech: ['Cypress', 'Selenium', 'Cucumber', 'JavaScript', 'Appium', 'Postman', 'Node.js', 'TestRail', 'SQL'],
+    logo: vpInfotechLogo
   },
   {
     id: 5,
@@ -58,7 +69,8 @@ export const experiences = [
     description: [
       'Assisted students with coursework, labs, and projects in Computer Science courses.'
     ],
-    tech: ['Teaching', 'Computer Science Fundamentals']
+    tech: ['Teaching', 'Computer Science Fundamentals'],
+    logo: uwLogo
   },
   {
     id: 6,
@@ -69,6 +81,7 @@ export const experiences = [
     description: [
       'Worked in customer service roles including cashiering, stocking, and barista duties while pursuing studies.'
     ],
-    tech: ['Customer Service', 'Time Management', 'Teamwork']
+    tech: ['Customer Service', 'Time Management', 'Teamwork'],
+    logo: uwLogo
   }
 ]
