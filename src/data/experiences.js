@@ -16,7 +16,7 @@ export const experiences = [
       'Data Pipeline Improvement: Worked on AWS-based (S3, Lambda, SQS, DynamoDB) data processing pipeline. Diagnosed and fixed memory leaks, crashes, and stability issues to significantly improve reliability. Enhanced debugging with CloudWatch logs and refined logging strategies.'
     ],
     tech: ['FastAPI', 'Biomedical NER', 'LLM', 'SQL', 'Supabase', 'pgvector', 'AWS S3', 'Lambda', 'SQS', 'DynamoDB', 'CloudWatch'],
-    logo: paragonLogo
+    logo: paragonLogo,
 
   },
   {
