@@ -1,8 +1,7 @@
-
-
 import { motion } from 'framer-motion'
 
-export default function ProjectCard({ title, description, tech, link }) {
+export default function ExperienceCard({ title, description, tech, link }) {
+
   return (
     <motion.article
       initial={{ opacity: 0, y: 30 }}

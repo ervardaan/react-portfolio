@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Hero from './components/Hero'
+import Experiences from './components/Experiences'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 
@@ -17,12 +18,13 @@ function App() {
               <img src={viteLogo} alt="Vite logo" style={{ width: 40 }} />
 	      <span className="font-medium text-base">Hi! I'm Vardaan Kapoor</span>
               <img src={reactLogo} alt="React logo" style={{ width: 40 }} />
-            <span className="font-bold text-lg">My Portfolio</span>
+            {/* <span className="font-bold text-lg">My Portfolio</span> */}
           </div>
 
           {/* Nav Links */}
           <ul className="flex items-center space-x-6">
             <li><a href="#home" className="hover:text-blue-600">Home</a></li>
+            <li><a href="#experiences" className="hover:text-blue-600">Experiences</a></li>
             <li><a href="#projects" className="hover:text-blue-600">Projects</a></li>
             <li><a href="#contact" className="hover:text-blue-600">Contact</a></li>
           </ul>
@@ -33,6 +35,7 @@ function App() {
       <div className="pt-20">
         <Hero />
         <main className="max-w-6xl mx-auto px-6">
+          <Experiences />
           <Projects />
         </main>
         <Footer />
